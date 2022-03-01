@@ -1,7 +1,7 @@
 # 启动了consul配置中心，程序启动后会优先读取bootstrap.yml配置文件读取consul配置
 spring:
   application:
-    name: kt-cloud-oss
+    name: oss
   cloud:
     nacos:
       discovery:
@@ -20,7 +20,7 @@ spring:
       password: ${nacos-username}
       username: ${nacos-password}
   profiles:
-    active: local
+    active: dev
 
 ---
 # 本地开发环境，默认关闭服务注册以及关闭读取远程配置
@@ -32,8 +32,8 @@ discovery-server-addr: 127.0.0.1:8848
 config-server-addr: 127.0.0.1:8848
 nacos-username: nacos
 nacos-password: nacos
-nacos-discovery-enabled: true
-nacos-config-enabled: true
+nacos-discovery-enabled: false
+nacos-config-enabled: false
 ---
 # 开发环境
 spring:

@@ -29,11 +29,6 @@
 
         <dependency>
             <groupId>com.kt</groupId>
-            <artifactId>kt-component-db-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.kt</groupId>
             <artifactId>kt-component-redis-spring-boot-starter</artifactId>
         </dependency>
 
@@ -59,6 +54,18 @@
             <artifactId>kt-cloud-oss-acl</artifactId>
         </dependency>
         <!-- 服务自身工程依赖 -->
+
+        <!-- oss -->
+        <dependency>
+            <groupId>com.kt.oss</groupId>
+            <artifactId>kt-component-oss-minio-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kt.oss</groupId>
+            <artifactId>kt-component-oss-aliyun-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- oss -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

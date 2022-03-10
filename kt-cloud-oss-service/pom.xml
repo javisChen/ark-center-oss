@@ -41,11 +41,6 @@
         <!-- 服务自身工程依赖 -->
         <dependency>
             <groupId>com.kt.cloud</groupId>
-            <artifactId>kt-cloud-oss-manager</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.kt.cloud</groupId>
             <artifactId>kt-cloud-oss-dao</artifactId>
         </dependency>
 

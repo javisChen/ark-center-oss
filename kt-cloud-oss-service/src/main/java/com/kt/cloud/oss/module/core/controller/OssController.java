@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @Api(tags = "OSS操作")
-@RequestMapping("/oss")
+@RequestMapping("/v1/oss")
 @RestController
 public class OssController {
 
@@ -24,11 +24,8 @@ public class OssController {
     }
 
     @ApiOperation(value = "上传OSS")
-    @ApiImplicitParams(value = {
-            @ApiImplicitParam(value = "type", name = "123")
-    })
     @PostMapping("/upload")
-    public SingleResponse<OssUploadRespDTO> upload(@Validated OssUploadReqDTO ossUploadDTO) {
+    public SingleResponse<OssUploadRespDTO> upload(OssUploadReqDTO ossUploadDTO) {
         return SingleResponse.ok(ossService.upload(ossUploadDTO));
     }
 }

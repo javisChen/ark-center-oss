@@ -4,6 +4,6 @@ server:
     context-path:
 spring:
   application:
-    name: kt-cloud-oss
+    name: oss
   main:
     allow-bean-definition-overriding: true

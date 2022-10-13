@@ -1,0 +1,19 @@
+server:
+  port: 8084
+  servlet:
+    context-path:
+spring:
+  application:
+    name: ark-center-oss
+  main:
+    allow-bean-definition-overriding: true
+ark:
+  component:
+    oss:
+      minio:
+        end-point: http://127.0.0.1:9000
+        access-key: admin
+        secret-key: admin123456
+        enabled: true
+      aliyun:
+        enabled: false

@@ -1,1 +1,0 @@
-package com.kt.cloud.oss.api;

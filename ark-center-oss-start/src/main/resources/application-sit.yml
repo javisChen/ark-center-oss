@@ -4,6 +4,6 @@ server:
     context-path:
 spring:
   application:
-    name: ark-center-oss
+    name: oss
   main:
     allow-bean-definition-overriding: true

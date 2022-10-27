@@ -1,0 +1,674 @@
+2022-10-27 23:12:41.188 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:12:41.355 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:12:41.355 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:12:41.361 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:12:42.102 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[common-local.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:12:42.109 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:12:42.116 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:12:42.120 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss-local.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:12:42.121 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-local.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-local.yml,DEFAULT_GROUP'}]
+2022-10-27 23:12:42.123 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: local
+2022-10-27 23:12:42.499 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:12:42.500 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:12:42.509 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:12:42.590 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:12:42.623 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=9fc64ea9-1cf5-3ee0-921e-da045d7bb762
+2022-10-27 23:12:42.870 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:12:42.874 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:12:42.875 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:12:42.875 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:12:42.933 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:12:42.933 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 802 ms
+2022-10-27 23:12:42.961 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:12:42.963 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:12:43.132 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:12:43.520 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:12:43.831 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:12:43.866 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:12:44.048 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:12:44.070 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:12:44.111 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:12:44.112 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:12:44.125 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:12:44.137 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:12:44.144 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2022-10-27 23:12:45.125 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:12:45.125 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:12:45.128 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:12:45.128 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:12:50.454 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:12:50.680 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:12:50.681 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:12:50.689 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:12:53.683 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:12:53.722 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:12:53.755 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:12:53.763 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:12:54.317 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:12:54.319 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:12:54.331 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2022-10-27 23:12:54.419 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:12:54.459 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=9fc64ea9-1cf5-3ee0-921e-da045d7bb762
+2022-10-27 23:12:54.755 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:12:54.761 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:12:54.761 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:12:54.761 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:12:54.829 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:12:54.830 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1048 ms
+2022-10-27 23:12:54.885 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:12:54.888 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:12:55.086 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:12:55.371 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:12:55.528 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:12:55.554 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:12:55.678 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:12:55.696 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:12:55.724 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:12:55.725 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:12:55.737 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:12:55.750 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:12:55.757 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:12:55.928 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:12:55.928 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:12:55.930 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:12:55.932 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:13:25.047 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:13:25.366 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:13:25.367 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:13:25.368 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:13:26.370 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:13:26.385 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:13:26.403 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:13:26.407 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:13:27.206 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:13:27.208 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:13:27.223 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2022-10-27 23:13:27.356 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:13:27.405 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:13:27.663 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:13:27.668 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:13:27.668 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:13:27.668 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:13:27.729 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:13:27.729 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1305 ms
+2022-10-27 23:13:27.761 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:13:27.762 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:13:27.895 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:13:28.143 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:13:28.278 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:13:28.304 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:13:28.422 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:13:28.443 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:13:28.470 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:13:28.471 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:13:28.482 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:13:28.492 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:13:28.502 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:13:28.779 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:13:28.779 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:13:28.782 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:13:28.783 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:16:17.033 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:16:17.290 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:16:17.312 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:16:17.316 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:16:20.283 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:16:20.316 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:16:20.338 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:16:20.349 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:16:21.011 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:16:21.013 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:16:21.025 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2022-10-27 23:16:21.133 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:16:21.174 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:16:21.515 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:16:21.523 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:16:21.523 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:16:21.523 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:16:21.669 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:16:21.669 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1303 ms
+2022-10-27 23:16:21.717 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:16:21.722 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:16:22.026 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:16:22.315 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:16:22.545 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:16:22.571 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:16:22.667 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:16:22.681 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:16:22.713 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:16:22.714 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:16:22.724 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:16:22.738 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:16:22.745 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:16:22.769 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:16:22.769 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:16:22.770 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:16:22.770 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:16:46.525 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:16:46.708 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:16:46.712 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:16:46.712 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:16:47.395 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:16:47.402 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:16:47.413 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:16:47.416 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:16:47.794 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:16:47.795 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:16:47.803 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:16:47.875 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:16:47.921 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:16:48.190 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:16:48.195 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:16:48.195 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:16:48.195 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:16:48.252 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:16:48.252 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 824 ms
+2022-10-27 23:16:48.287 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:16:48.289 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:16:48.492 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:16:48.786 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:16:48.987 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:16:49.022 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:16:49.127 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:16:49.143 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:16:49.174 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:16:49.175 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:16:49.188 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:16:49.202 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:16:49.210 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:16:49.309 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:16:49.311 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:16:49.310 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:16:49.315 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:17:43.179 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:17:43.333 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:17:43.334 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:17:43.344 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:17:44.301 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:17:44.309 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:17:44.320 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:17:44.323 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:17:44.795 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:17:44.797 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:17:44.808 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2022-10-27 23:17:44.903 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:17:44.944 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:17:45.303 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:17:45.309 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:17:45.309 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:17:45.309 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:17:45.389 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:17:45.389 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1053 ms
+2022-10-27 23:17:45.437 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:17:45.439 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:17:45.610 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:17:45.927 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:17:46.105 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:17:46.131 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:17:46.242 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:17:46.260 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:17:46.288 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:17:46.289 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:17:46.302 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:17:46.318 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:17:46.325 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:17:46.458 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:17:46.458 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:17:46.459 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:17:46.460 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:17:59.888 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:18:00.027 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:18:00.028 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:18:00.030 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:18:01.001 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:18:01.012 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:18:01.036 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:18:01.039 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:18:01.528 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:18:01.530 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:18:01.539 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:18:01.623 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:18:01.664 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:18:01.945 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:18:01.950 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:18:01.950 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:18:01.951 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:18:02.014 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:18:02.014 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 965 ms
+2022-10-27 23:18:02.051 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:18:02.054 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:18:02.247 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:18:02.551 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:18:02.756 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:18:02.790 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:18:02.897 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:18:02.910 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:18:02.948 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:18:02.949 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:18:02.958 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:18:02.975 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:18:02.986 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:18:03.072 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:18:03.073 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:18:03.074 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:18:03.074 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:18:50.954 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:18:51.119 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:18:51.120 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:18:51.122 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:18:52.159 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:18:52.171 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:18:52.189 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:18:52.192 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:18:52.644 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:18:52.645 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:18:52.654 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:18:52.731 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:18:52.774 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:18:53.042 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:18:53.048 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:18:53.048 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:18:53.048 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:18:53.106 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:18:53.106 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 901 ms
+2022-10-27 23:18:53.144 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:18:53.146 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:18:53.311 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:18:53.588 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:18:53.773 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:18:53.807 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:18:53.921 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:18:53.939 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:18:53.968 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:18:53.970 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:18:53.982 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:18:53.992 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:18:53.999 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:18:54.172 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:21:46.473 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:21:46.941 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:21:46.965 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:21:46.966 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:21:49.096 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:21:49.110 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:21:49.135 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:21:49.142 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:21:49.660 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:21:49.661 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:21:49.672 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2022-10-27 23:21:49.767 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:21:49.809 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:21:50.214 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:21:50.225 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:21:50.225 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:21:50.225 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:21:50.328 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:21:50.328 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1170 ms
+2022-10-27 23:21:50.368 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:21:50.370 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:21:50.551 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:21:50.925 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:21:51.125 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:21:51.155 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:21:51.267 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:21:51.288 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:21:51.320 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:21:51.321 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:21:51.332 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:21:51.343 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:21:51.350 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:21:51.393 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:21:51.393 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:21:51.394 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:21:51.394 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:22:31.900 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:22:32.204 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:22:32.205 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:22:32.221 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:22:33.064 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:22:33.168 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:22:33.213 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:22:33.219 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:22:33.880 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:22:33.894 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:22:33.907 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:22:33.978 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:22:34.014 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:22:34.244 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:22:34.248 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:22:34.249 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:22:34.249 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:22:34.306 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:22:34.306 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 1071 ms
+2022-10-27 23:22:34.340 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:22:34.342 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:22:34.510 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:22:34.766 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:22:34.920 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:22:34.947 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:22:35.082 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:22:35.101 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:22:35.131 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:22:35.132 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:22:35.152 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:22:35.171 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:22:35.183 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:22:35.368 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:22:35.367 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:22:35.369 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:22:35.370 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:23:09.129 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:23:09.639 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:23:09.696 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:23:09.697 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:23:11.270 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:23:11.329 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:23:11.458 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:23:11.475 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:23:12.707 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:23:12.710 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:23:12.741 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-10-27 23:23:12.951 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:23:13.031 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:23:13.476 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:23:13.485 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:23:13.486 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:23:13.487 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:23:13.582 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:23:13.582 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 2078 ms
+2022-10-27 23:23:13.633 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:23:13.636 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:23:13.887 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:23:14.431 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:23:14.866 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:23:14.931 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:23:15.207 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:23:15.239 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:23:15.315 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:23:15.320 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:23:15.356 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:23:15.386 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:23:15.410 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:23:16.355 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:23:16.355 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:23:16.360 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2022-10-27 23:23:16.360 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:25:12.987 [INFO ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.h.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2022-10-27 23:25:13.147 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2022-10-27 23:25:13.148 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.n.p.a.s.c.ClientAuthPluginManager:56 - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2022-10-27 23:25:13.159 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-10-27 23:25:14.114 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
+2022-10-27 23:25:14.126 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
+2022-10-27 23:25:14.142 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.c.b.c.PropertySourceBootstrapConfiguration:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-oss-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oss,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-common-dev.yml,DEFAULT_GROUP'}]
+2022-10-27 23:25:14.145 [INFO ] [cip:192.168.31.21][xid:] [tid:main] com.ark.center.oss.Application:652 - The following profiles are active: dev
+2022-10-27 23:25:14.615 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-27 23:25:14.617 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-27 23:25:14.626 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-10-27 23:25:14.712 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
+2022-10-27 23:25:14.754 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.cloud.context.scope.GenericScope:295 - BeanFactory id=e9afa717-1125-3f9e-a5c6-03e3e5dbadd2
+2022-10-27 23:25:15.052 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.e.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8084 (http)
+2022-10-27 23:25:15.058 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8084"]
+2022-10-27 23:25:15.058 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2022-10-27 23:25:15.058 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-27 23:25:15.114 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2022-10-27 23:25:15.114 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 961 ms
+2022-10-27 23:25:15.150 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.c.a.ServiceContextAutoConfiguration:22 - enable [ark-component-context-spring-boot-starter]
+2022-10-27 23:25:15.152 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.r.a.RedisCacheAutoConfiguration:23 - enable [ark-component-cache-redis-spring-boot-starter]
+2022-10-27 23:25:15.344 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.o.m.a.MinIoOssAutoConfiguration:21 - enable [ark-component-oss-minio-spring-boot-starter]
+2022-10-27 23:25:15.741 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.w.a.CloudWebAutoConfiguration:41 - enable [ark-component-web-spring-boot-starter]
+2022-10-27 23:25:15.978 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.e.a.ExceptionAutoConfiguration:25 - enable [ark-component-exception-spring-boot-starter]
+2022-10-27 23:25:16.008 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:25:16.169 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-27 23:25:16.207 [INFO ] [cip:192.168.31.21][xid:] [tid:main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2022-10-27 23:25:16.264 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-27 23:25:16.266 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-27 23:25:16.289 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.a.catalina.core.StandardService:173 - Stopping service [Tomcat]
+2022-10-27 23:25:16.317 [INFO ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-27 23:25:16.373 [ERROR] [cip:192.168.31.21][xid:] [tid:main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2022-10-27 23:25:17.287 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-10-27 23:25:17.287 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2022-10-27 23:25:17.291 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2022-10-27 23:25:17.293 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end

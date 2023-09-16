@@ -22,7 +22,7 @@ public class OssService {
     }
 
     public OssUploadRespDTO upload(OssUploadReqDTO ossUploadDTO) {
-        checkBeforeUpload(o ssUploadDTO);
+        checkBeforeUpload(ossUploadDTO);
         IObjectStorageService storageService = getStorageService(ossUploadDTO);
         if (storageService == null) {
             throw ExceptionFactory.userException("无效的OSS类型");

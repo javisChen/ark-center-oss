@@ -5,12 +5,14 @@ import com.ark.center.oss.module.core.constants.OssTypeEnums;
 import com.ark.center.oss.module.core.dto.OssUploadRespDTO;
 import com.ark.component.exception.ExceptionFactory;
 import com.ark.component.oss.IObjectStorageService;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import java.util.Map;
 
 @Service
+@Slf4j
 public class OssService {
 
     private final Map<String, IObjectStorageService> objectStorageServiceMap;
@@ -20,7 +22,7 @@ public class OssService {
     }
 
     public OssUploadRespDTO upload(OssUploadReqDTO ossUploadDTO) {
-        checkBeforeUpload(ossUploadDTO);
+        checkBeforeUpload(o ssUploadDTO);
         IObjectStorageService storageService = getStorageService(ossUploadDTO);
         if (storageService == null) {
             throw ExceptionFactory.userException("无效的OSS类型");
@@ -30,6 +32,7 @@ public class OssService {
         try {
             ossUrl = storageService.put(ossUploadDTO.getBucketName(), file.getOriginalFilename(), file.getInputStream());
         } catch (Exception e) {
+            log.error("上传失败", e);
             throw ExceptionFactory.sysException("上传失败", e);
         }
         return toOssUploadRespDTO(ossUrl);

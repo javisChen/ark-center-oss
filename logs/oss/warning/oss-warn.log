@@ -1,110 +1,463 @@
-2022-10-27 23:12:41.361 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:12:42.102 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[common-local.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:12:42.109 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:12:42.116 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:12:42.120 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss-local.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:12:42.590 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:12:44.111 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:12:45.125 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:12:45.125 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:12:45.128 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:12:45.128 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:12:50.689 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:12:53.683 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:12:53.722 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:12:54.419 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:12:55.724 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:12:55.928 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:12:55.928 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:12:55.930 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:12:55.932 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:13:25.366 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:13:26.370 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:13:26.385 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:13:27.356 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:13:28.470 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:13:28.779 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:13:28.779 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:13:28.782 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:13:28.783 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:16:17.290 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:16:20.283 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:16:20.316 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:16:21.133 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:16:22.713 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:16:22.769 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:16:22.769 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:16:22.770 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:16:22.770 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:16:46.708 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:16:47.395 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:16:47.402 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:16:47.875 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:16:49.174 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:16:49.309 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:16:49.311 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:16:49.310 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:16:49.315 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:17:43.344 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:17:44.301 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:17:44.309 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:17:44.903 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:17:46.288 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:17:46.458 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:17:46.458 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:17:46.459 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:17:46.460 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:18:00.030 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:18:01.001 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:18:01.012 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:18:01.623 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:18:02.948 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:18:03.073 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:18:03.072 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:18:03.074 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:18:03.074 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:18:51.122 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:18:52.159 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:18:52.171 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:18:52.731 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:18:53.968 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:18:54.171 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:18:54.172 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:21:46.941 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:21:49.096 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:21:49.110 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:21:49.767 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:21:51.320 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:21:51.393 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:21:51.393 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:21:51.394 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:21:51.394 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:22:32.221 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:22:33.064 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:22:33.168 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:22:33.978 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:22:35.131 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:22:35.368 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:22:35.367 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:22:35.369 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:22:35.370 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:23:09.639 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:23:11.270 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:23:11.329 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:23:12.951 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:23:15.315 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:23:16.355 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:23:16.355 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:23:16.360 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
-2022-10-27 23:23:16.360 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:25:13.159 [WARN ] [cip:192.168.31.21][xid:] [tid:background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2022-10-27 23:25:14.114 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss] & group[DEFAULT_GROUP]
-2022-10-27 23:25:14.126 [WARN ] [cip:192.168.31.21][xid:] [tid:main] c.a.c.n.c.NacosPropertySourceBuilder:87 - Ignore the empty nacos configuration and get it based on dataId[oss.yml] & group[DEFAULT_GROUP]
-2022-10-27 23:25:14.712 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.m.s.mapper.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.ark.center.oss]' package. Please check your configuration.
-2022-10-27 23:25:16.264 [WARN ] [cip:192.168.31.21][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2022-10-27 23:25:17.287 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:108 - [HttpClientBeanHolder] Start destroying common HttpClient
-2022-10-27 23:25:17.287 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
-2022-10-27 23:25:17.291 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-9] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
-2022-10-27 23:25:17.293 [WARN ] [cip:192.168.31.21][xid:] [tid:Thread-2] c.a.n.c.http.HttpClientBeanHolder:114 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:00:19.202 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:00:19.307 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:00:23.670 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 89701aca-0807-4644-8a09-6fcebdfd04c8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:01:15.049 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:01:15.049 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:01:15.050 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:01:15.051 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:01:18.291 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:01:18.334 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:01:20.489 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 474594bd-a36b-4a5c-ab91-1fc9b62f6d70
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:12:41.361 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:12:41.361 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:12:41.363 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:12:41.363 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:12:44.965 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:12:45.001 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:12:47.249 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 53108ba2-acf4-46a7-b58f-f91346317a4b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:14:23.980 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:14:23.980 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:14:23.980 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:14:23.981 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:14:27.255 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:14:27.287 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:14:29.508 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 5fb693dd-0f70-4318-a49e-35af144bf283
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:16:28.360 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:16:28.360 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:16:28.360 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:16:28.360 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:16:31.358 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:16:31.391 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:16:33.856 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: d84fd10b-1c40-48a9-9fed-388e243a76ab
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:27:11.374 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:27:11.374 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:27:11.375 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:27:11.376 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:27:12.561 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 00:27:12.561 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 00:27:12.562 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 00:27:12.562 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 00:31:31.385 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:31:31.420 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:31:33.524 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 8bc181eb-ac5a-41a8-ab27-79e8769bbb89
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:32:48.767 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 00:32:48.767 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 00:32:48.769 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 00:32:48.769 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 00:32:48.959 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 00:32:48.959 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 00:32:48.959 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 00:32:48.959 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 00:45:53.219 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:45:53.250 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 00:46:13.253 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 250f17d0-6c8a-4145-a759-efa992fff578
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 00:48:46.530 [WARN ] [cip:192.168.1.175][xid:7c699954-d05d-4fe5-a7ee-c36649f523cf] [tid:http-nio-8084-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:419 - Failure in @ExceptionHandler com.ark.component.exception.handler.GlobalExceptionHandler#handle(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:267)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:226)
+	at com.alibaba.fastjson2.support.spring6.http.converter.FastJsonHttpMessageConverter.write(FastJsonHttpMessageConverter.java:86)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:194)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1341)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1152)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:477)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:338)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:80)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:126)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at com.ark.component.security.core.authentication.filter.AccessCheckFilter.doFilterInternal(AccessCheckFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at com.ark.component.security.core.authentication.filter.TraceFilter.doFilterInternal(TraceFilter.java:33)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:238)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:321)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:222)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:135)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:118)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1381)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:566)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1245)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:301)
+	... 119 common frames omitted
+2023-09-16 21:29:36.308 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 21:29:36.308 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 21:29:36.308 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 21:29:36.310 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 21:29:36.558 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 21:29:36.558 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 21:29:36.559 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 21:29:36.559 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 21:44:50.727 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 21:44:50.764 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 21:44:53.112 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: dd9b0141-8800-4227-b7d1-b34fdd52f902
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 21:45:51.320 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 21:45:51.320 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 21:45:51.323 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 21:45:51.325 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 21:45:51.493 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 21:45:51.493 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 21:45:51.493 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 21:45:51.493 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 21:45:51.496 [WARN ] [cip:192.168.1.175][xid:] [tid:nacos-grpc-client-executor-127.0.0.1-32] c.a.n.c.r.client.grpc.GrpcClient:89 - [1694871893708_172.31.0.1_43008]Ignore error event,isRunning:false,isAbandon=false
+2023-09-16 21:55:26.760 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 21:55:26.795 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 21:55:29.213 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 7fb8c44e-12f8-4851-a26c-84dac1d3cb75
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:00:24.022 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:00:24.022 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:00:24.022 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:00:24.023 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:00:24.172 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:00:24.172 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:00:24.172 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:00:24.172 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:00:27.831 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:00:27.862 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:00:30.088 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 27755894-717e-483a-b78c-590ee0899457
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:00:41.396 [WARN ] [cip:192.168.1.175][xid:] [tid:boundedElastic-1] o.s.b.a.d.r.RedisReactiveHealthIndicator:92 - Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1602)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1533)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1358)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1341)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1083)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:479)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:105)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:67)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:227)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:104)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1531)
+	... 15 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to redis.ark-dev.svc/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:350)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:112)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:112)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$getConnection$0(LettucePoolingConnectionProvider.java:93)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:99)
+	... 16 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: redis.ark-dev.svc/192.168.31.21:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2023-09-16 22:00:41.406 [WARN ] [cip:192.168.1.175][xid:] [tid:RMI TCP Connection(2)-127.0.0.1] o.s.b.a.health.HealthEndpointSupport:181 - Health contributor org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$AdaptedReactiveHealthContributors$1 (redis) took 10257ms to respond
+2023-09-16 22:05:50.272 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:05:50.272 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:05:50.273 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:05:50.274 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:05:50.437 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:05:50.437 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:05:50.437 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:05:50.437 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:05:53.659 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:05:53.691 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:05:55.903 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 524ae490-2203-4ce5-8b4e-0b2e716cda0e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:16:01.958 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:16:01.959 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:16:01.959 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:16:01.963 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:16:05.417 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:16:05.447 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:16:07.662 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 2e3e2284-5c44-4632-906b-a9c32cc6a063
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:23:04.512 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:23:04.512 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:23:04.512 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:23:04.513 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:23:07.177 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:23:07.210 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:23:09.474 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: a6fbe9e0-175b-4a7e-aeae-96100b224caa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:48:30.055 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:48:30.057 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:48:30.057 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:48:30.059 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:48:32.454 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:48:32.485 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:48:34.686 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 7a86c466-35f0-414e-a8a2-7aadee0daf59
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:48:38.208 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:48:38.208 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:48:38.208 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:48:38.208 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:48:38.661 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:48:38.661 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:48:38.661 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:48:38.661 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:48:38.664 [WARN ] [cip:192.168.1.175][xid:] [tid:nacos-grpc-client-executor-127.0.0.1-14] c.a.n.c.r.client.grpc.GrpcClient:89 - [1694875715275_172.31.0.1_49594]Ignore error event,isRunning:false,isAbandon=false
+2023-09-16 22:48:42.265 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:48:42.299 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:48:44.592 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 38d45197-a6fd-4c28-9ed3-a07cc1cef3a8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:50:46.840 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:50:46.842 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:50:46.843 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:50:46.844 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:50:47.012 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:50:47.012 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:50:47.013 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:74 - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-16 22:50:47.013 [WARN ] [cip:192.168.1.175][xid:] [tid:SpringApplicationShutdownHook] com.alibaba.nacos.client.naming:81 - [NamingHttpClientManager] Destruction of the end
+2023-09-16 22:50:50.678 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:50:50.710 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:50:52.145 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed
+2023-09-16 22:50:52.171 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:50:52.171 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:50:52.171 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:50:52.171 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:51:13.497 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:51:13.531 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:51:14.912 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed
+2023-09-16 22:51:14.939 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:51:14.939 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:51:14.939 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:51:14.939 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:51:35.335 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:51:35.368 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:51:37.736 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 0d7ceb2b-b348-4f4a-8c40-2792d041c4f4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:55:47.813 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:55:47.813 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:55:47.815 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:55:47.816 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:55:52.567 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:55:52.605 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:55:55.427 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: b1400d92-418e-47fd-b5d7-cb5ffda69d20
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:56:02.250 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:56:02.250 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:56:02.250 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:56:02.251 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end
+2023-09-16 22:56:04.725 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:56:04.757 [WARN ] [cip:192.168.1.175][xid:] [tid:main] c.a.n.client.logging.NacosLogging:64 - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-09-16 22:56:06.923 [WARN ] [cip:192.168.1.175][xid:] [tid:main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration:87 - 
+
+Using generated security password: 72a9d883-43d2-461d-8ea0-cc73b5c4da33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-09-16 22:58:46.778 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-16 22:58:46.778 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:136 - [NotifyCenter] Start destroying Publisher
+2023-09-16 22:58:46.780 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-6] c.a.nacos.common.notify.NotifyCenter:153 - [NotifyCenter] Destruction of the end
+2023-09-16 22:58:46.781 [WARN ] [cip:192.168.1.175][xid:] [tid:Thread-1] c.a.n.c.http.HttpClientBeanHolder:111 - [HttpClientBeanHolder] Destruction of the end

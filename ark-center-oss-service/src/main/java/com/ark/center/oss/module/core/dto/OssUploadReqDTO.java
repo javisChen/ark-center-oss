@@ -1,10 +1,9 @@
 package com.ark.center.oss.module.core.dto;
 
 import io.swagger.annotations.ApiModelProperty;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
-
-import javax.validation.constraints.NotNull;
 
 
 @Data

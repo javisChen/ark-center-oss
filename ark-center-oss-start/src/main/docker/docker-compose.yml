@@ -1,0 +1,15 @@
+version: '3'
+services:
+  oss:
+    container_name: ark-center-oss
+    image: ark-center-oss:1.0.0
+    restart: always
+    ports:
+      - "8084:8084"
+    env_file:
+      - start.env
+    networks:
+      - "compose_default"
+networks:
+  compose_default:
+    external: true

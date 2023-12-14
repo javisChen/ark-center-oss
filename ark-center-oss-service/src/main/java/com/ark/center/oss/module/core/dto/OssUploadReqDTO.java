@@ -12,7 +12,9 @@ public class OssUploadReqDTO {
     @ApiModelProperty(value = "OSS类型 （MINIO、ALIYUN）", allowableValues = "MINIO,ALIYUN", required = false)
     private String type;
     @ApiModelProperty(value = "bucket（不传就取默认值）", required = false)
-    private String bucketName;
+    private String bucket;
+    @ApiModelProperty(value = "文件名称", required = false)
+    private String fileName;
     @ApiModelProperty(value = "文件", required = true)
     @NotNull(message = "文件不能为空")
     private MultipartFile file;

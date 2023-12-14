@@ -30,20 +30,20 @@ public class OssService {
         MultipartFile file = ossUploadDTO.getFile();
         String ossUrl = "";
         try {
-            ossUrl = storageService.put(ossUploadDTO.getBucketName(), file.getOriginalFilename(), file.getInputStream());
+            ossUrl = storageService.put(ossUploadDTO.getBucket(), ossUploadDTO.getFileName(), file.getInputStream());
         } catch (Exception e) {
             log.error("上传失败", e);
             throw ExceptionFactory.sysException("上传失败", e);
         }
-        return toOssUploadRespDTO(ossUrl);
+        return toOssUploadRespDTO(ossUploadDTO.getFileName());
     }
 
     private void checkBeforeUpload(OssUploadReqDTO ossUploadDTO) {
         if (StringUtils.isEmpty(ossUploadDTO.getType())) {
             ossUploadDTO.setType(OssTypeEnums.MINIO.getValue());
         }
-        if (StringUtils.isEmpty(ossUploadDTO.getBucketName())) {
-            ossUploadDTO.setBucketName("default");
+        if (StringUtils.isEmpty(ossUploadDTO.getBucket())) {
+            ossUploadDTO.setBucket("default");
         }
     }
 

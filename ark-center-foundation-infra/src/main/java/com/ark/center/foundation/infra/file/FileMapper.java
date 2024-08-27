@@ -1,4 +1,4 @@
-package com.ark.center.foundation.dao.file;
+package com.ark.center.foundation.infra.file;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

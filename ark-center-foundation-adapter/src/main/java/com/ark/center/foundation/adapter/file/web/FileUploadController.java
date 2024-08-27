@@ -3,7 +3,7 @@ package com.ark.center.foundation.adapter.file.web;//package com.ark.center.oss.
 import cn.hutool.core.io.IoUtil;
 import com.ark.center.foundation.client.file.command.FileUploadCommand;
 import com.ark.center.foundation.client.file.dto.FileUploadDTO;
-import com.ark.center.foundation.file.service.FileService;
+import com.ark.center.foundation.file.service.FileUploadAppService;
 import com.ark.component.dto.SingleResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -27,16 +27,16 @@ import java.net.http.HttpResponse;
 @Slf4j
 public class FileUploadController {
 
-    private final FileService fileService;
+    private final FileUploadAppService fileUploadAppService;
 
-    public FileUploadController(FileService fileService) {
-        this.fileService = fileService;
+    public FileUploadController(FileUploadAppService fileUploadAppService) {
+        this.fileUploadAppService = fileUploadAppService;
     }
 
     @Operation(summary = "上传文件")
     @PostMapping(value = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public SingleResponse<FileUploadDTO> upload(FileUploadCommand ossUploadDTO) {
-        return SingleResponse.ok(fileService.upload(ossUploadDTO));
+        return SingleResponse.ok(fileUploadAppService.upload(ossUploadDTO));
     }
 
     @Operation(summary = "转发文件流")

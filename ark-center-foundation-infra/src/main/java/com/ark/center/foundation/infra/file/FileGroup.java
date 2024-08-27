@@ -1,14 +1,10 @@
-package com.ark.center.foundation.dao.file;
+package com.ark.center.foundation.infra.file;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.ark.component.orm.mybatis.base.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
-import java.time.LocalDateTime;
 
 /**
  * <p>

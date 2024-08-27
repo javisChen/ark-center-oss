@@ -1,11 +1,11 @@
-package com.ark.center.foundation.client.file.command;
+package com.ark.center.foundation.client.file.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-public class FileCommand {
+public class FileDTO {
 
     @ApiModelProperty(value = "id")
     private Long id;

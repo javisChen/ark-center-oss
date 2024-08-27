@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class FileService {
+public class FileUploadAppService {
 
     private final OssStrategy ossStrategy;
 

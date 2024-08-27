@@ -10,7 +10,7 @@
 
     <modules>
         <module>ark-center-foundation-client</module>
-        <module>ark-center-foundation-dao</module>
+        <module>ark-center-foundation-infra</module>
         <module>ark-center-foundation-manager</module>
         <module>ark-center-foundation-app</module>
         <module>ark-center-foundation-adapter</module>
@@ -45,7 +45,7 @@
 
             <dependency>
                 <groupId>com.ark.center</groupId>
-                <artifactId>ark-center-foundation-dao</artifactId>
+                <artifactId>ark-center-foundation-infra</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

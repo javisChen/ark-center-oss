@@ -19,6 +19,12 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
             <groupId>com.ark.microservice</groupId>
             <artifactId>ark-component-microservice-rpc-feign</artifactId>
         </dependency>

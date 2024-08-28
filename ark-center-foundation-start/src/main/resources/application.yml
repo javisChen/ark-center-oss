@@ -47,8 +47,7 @@ spring:
       - nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
       - nacos:common.yml
 mybatis-plus:
-  mapper-locations: classpath:com/ark/center/foundation/dao/*.xml
-
+  mapper-locations: classpath:com/ark/center/foundation/infra/*/dao/*.xml
 management:
   endpoints:
     web:
@@ -69,8 +68,8 @@ spring:
 nacos-discovery-ip: ${NACOS_DISCOVERY_IP:}
 nacos-discovery-namespace: ${NACOS_DISCOVERY_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
 nacos-config-namespace: ${NACOS_CONFIG_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
-discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:127.0.0.1:8848}
-config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:127.0.0.1:8848}
+discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:nacos:8848}
+config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:nacos:8848}
 nacos-username: ${NACOS_USERNAME:nacos}
 nacos-password: ${NACOS_PASSWORD:nacos}
 nacos-discovery-group: ${NACOS_DISCOVERY_GROUP:DEFAULT_GROUP}
@@ -87,8 +86,8 @@ spring:
 nacos-discovery-ip: ${NACOS_DISCOVERY_IP:}
 nacos-discovery-namespace: ${NACOS_DISCOVERY_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
 nacos-config-namespace: ${NACOS_CONFIG_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
-discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:127.0.0.1:8848}
-config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:127.0.0.1:8848}
+discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:nacos:8848}
+config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:nacos:8848}
 nacos-username: ${NACOS_USERNAME:nacos}
 nacos-password: ${NACOS_PASSWORD:nacos}
 nacos-discovery-group: ${NACOS_DISCOVERY_GROUP:DEFAULT_GROUP}
@@ -105,8 +104,27 @@ spring:
 nacos-discovery-ip: ${NACOS_DISCOVERY_IP:}
 nacos-discovery-namespace: ${NACOS_DISCOVERY_NAMESPACE:74ac3a8d-d15e-4f1b-a5cd-112f438c975d}
 nacos-config-namespace: ${NACOS_CONFIG_NAMESPACE:74ac3a8d-d15e-4f1b-a5cd-112f438c975d}
-discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:127.0.0.1:8848}
-config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:127.0.0.1:8848}
+discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:nacos:8848}
+config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:nacos:8848}
+nacos-username: ${NACOS_USERNAME:nacos}
+nacos-password: ${NACOS_PASSWORD:nacos}
+nacos-discovery-group: ${NACOS_DISCOVERY_GROUP:DEFAULT_GROUP}
+nacos-config-group: ${NACOS_CONFIG_GROUP:DEFAULT_GROUP}
+nacos-discovery-enabled: true
+nacos-config-enabled: true
+config-allow-override: true
+---
+
+# 集成测试环境
+spring:
+  config:
+    activate:
+      on-profile: prod
+nacos-discovery-ip: ${NACOS_DISCOVERY_IP:}
+nacos-discovery-namespace: ${NACOS_DISCOVERY_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
+nacos-config-namespace: ${NACOS_CONFIG_NAMESPACE:aaff0c75-80b1-4c85-ad3f-c625501368ba}
+discovery-server-addr: ${NACOS_DISCOVERY_SERVER_ADDR:nacos:8848}
+config-server-addr: ${NACOS_CONFIG_SERVER_ADDR:nacos:8848}
 nacos-username: ${NACOS_USERNAME:nacos}
 nacos-password: ${NACOS_PASSWORD:nacos}
 nacos-discovery-group: ${NACOS_DISCOVERY_GROUP:DEFAULT_GROUP}

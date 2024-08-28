@@ -17,10 +17,12 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.ark.center</groupId>
-            <artifactId>ark-center-foundation-app</artifactId>
+            <artifactId>ark-center-foundation-adapter</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>

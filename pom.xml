@@ -26,10 +26,6 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -61,6 +57,11 @@
             <dependency>
                 <groupId>com.ark.center</groupId>
                 <artifactId>ark-center-foundation-app</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ark.center</groupId>
+                <artifactId>ark-center-foundation-adapter</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
